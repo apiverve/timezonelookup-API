@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/timezonelookup",
+  "version": "1.0.0",
+  "description": "Timezone Lookup is a simple tool for looking up timezone data. It returns the timezone name, offset, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/timezonelookup-API.git"
+  },
+  "keywords": [
+    "timezone lookup"," timezone lookup api"," timezone lookup tool"," timezone lookup software"," timezone lookup service"," timezone lookup library"," timezone lookup sdk"," timezone lookup code"," timezone lookup script"," timezone lookup program"," timezone lookup application"," timezone lookup app"," timezone lookup utility"," timezone lookup helper"," timezone lookup helper tool"," timezone lookup helper software"," timezone lookup helper service"," timezone lookup helper library"," timezone lookup helper sdk"," timezone lookup helper code"," timezone lookup helper script"," timezone lookup helper program"," timezone lookup helper application"," timezone lookup helper app"," timezone lookup helper tool"," timezone lookup helper utility"," timezone lookup helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/timezonelookup-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/timezonelookup-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
