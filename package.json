@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/timezonelookup-API.git"
   },
   "keywords": [
-    "timezone lookup"," timezone lookup api"," timezone lookup tool"," timezone lookup software"," timezone lookup service"," timezone lookup library"," timezone lookup sdk"," timezone lookup code"," timezone lookup script"," timezone lookup program"," timezone lookup application"," timezone lookup app"," timezone lookup utility"," timezone lookup helper"," timezone lookup helper tool"," timezone lookup helper software"," timezone lookup helper service"," timezone lookup helper library"," timezone lookup helper sdk"," timezone lookup helper code"," timezone lookup helper script"," timezone lookup helper program"," timezone lookup helper application"," timezone lookup helper app"," timezone lookup helper tool"," timezone lookup helper utility"," timezone lookup helper"
+    "timezone lookup","timezone lookup api","timezone lookup tool","timezone lookup software","timezone lookup service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
