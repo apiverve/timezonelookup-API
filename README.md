@@ -73,17 +73,17 @@ api.execute(query, function (error, data) {
   "data": {
     "timezone": "Africa/Harare",
     "timezone_offset": 120,
-    "date": "2024-09-01",
-    "time": "11:38",
-    "time24": "11:38:49",
-    "time12": "11:38:49 AM",
-    "day": "Sunday",
-    "month": "September",
-    "year": "2024",
-    "unix": "1725183529",
+    "date": "2025-02-20",
+    "time": "23:34",
+    "time24": "23:34:29",
+    "time12": "11:34:29 PM",
+    "day": "Thursday",
+    "month": "February",
+    "year": "2025",
+    "unix": "1740087269",
     "dst": false,
-    "dst_start": "2024-09-01 11:38:49",
-    "dst_end": "2024-09-01 11:38:49",
+    "dst_start": "2025-02-20 23:34:29",
+    "dst_end": "2025-02-20 23:34:29",
     "dst_name": "CAT"
   },
   "code": 200
@@ -112,7 +112,7 @@ All usage of the APIVerve website, API, and services is subject to the [APIVerve
 ## License
 Licensed under the The MIT License (MIT)
 
-Copyright (&copy;) 2024 APIVerve, and Evlar LLC
+Copyright (&copy;) 2025 APIVerve, and EvlarSoft LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
