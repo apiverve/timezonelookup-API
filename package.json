@@ -1,24 +1,26 @@
 {
   "name": "@apiverve/timezonelookup",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "Timezone Lookup is a simple tool for looking up timezone data. It returns the timezone name, offset, and more.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "example": "node examples/basic.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apiverve/timezonelookup-API.git"
   },
   "keywords": [
-    "timezone lookup","timezone lookup api","timezone lookup tool","timezone lookup software","timezone lookup service"
+    "timezone lookup", "timezone lookup api", "timezone lookup tool", "timezone lookup software", "timezone lookup service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/apiverve/timezonelookup-API/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/api/timezonelookup?utm_source=npm",
+  "homepage": "https://apiverve.com/marketplace/timezonelookup?utm_source=npm",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
@@ -27,6 +29,6 @@
   "dependencies": {
     "node-fetch": "^3.3.2",
     "promise": "^8.3.0",
-    "axios": "1.7.9"
+    "axios": "1.13.2"
   }
 }
