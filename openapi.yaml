@@ -1,0 +1,78 @@
+openapi: 3.0.4
+info:
+  title: Timezone Lookup
+  description: Timezone Lookup is a simple tool for looking up timezone data. It returns the timezone name, offset, and more.
+  termsOfService: https://apiverve.com/terms/
+  contact:
+    name: APIVerve Support
+    email: hello@apiverve.com
+    url: https://apiverve.com/contact
+  version: 1.0.9
+externalDocs:
+  description: Learn more about APIVerve
+  url: https://docs.apiverve.com?utm_source=openapi
+servers:
+- url: https://api.apiverve.com/
+paths:
+  /v1/timezonelookup:
+    get:
+      summary: Lookup Timezone by City
+      description: Timezone Lookup is a simple tool for looking up timezone data. It returns the timezone name, offset, and more.
+      operationId: timezonelookup
+      parameters:
+      - name: city
+        in: query
+        schema:
+          type: string
+        required: true
+        description: The city name for which you want to get the data (e.g., Harare)
+        example: Harare
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: status
+                  error:
+                    type: string
+                    description: error
+                  data:
+                    type: string
+                    description: data
+              example:
+                status: ok
+                error: 
+                data:
+                  timezone: Africa/Harare
+                  timezone_offset: 120
+                  date: 2025-02-20
+                  time: 23:34
+                  time24: 23:34:29
+                  time12: 11:34:29 PM
+                  day: Thursday
+                  month: February
+                  year: '2025'
+                  unix: '1740087269'
+                  dst: false
+                  dst_start: 2025-02-20 23:34:29
+                  dst_end: 2025-02-20 23:34:29
+                  dst_name: CAT
+        '401':
+          description: Your request was not authorized, or your API Key was invalid
+        '404':
+          description: Requested resource was not found
+        '500':
+          description: A server error has occured, try again later
+components:
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: x-api-key
+      in: header
+security:
+- api_key: []
